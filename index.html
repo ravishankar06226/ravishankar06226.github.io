@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Ravi Kumar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>    
+</head>
+</head>
+<body>
+    <main>
+        <h1>Ravi Kumar, Associate Data Scientist (Medgenome Labs), IITB Alumni</h1>
+        <div>
+            <h2>About</h2>
+            <p>Experienced Data Scientist with 6 years of proven success in the healthcare industry, specializing in Generative AI, Machine Learning, Deep Learning. Skilled in designing and deploying end to end AI solutions which include dataset preparation, feature engineering, optimized model development and dockerized application deployment. Holds a Master's degree in Biomedical Engineering from the Indian Institute of Technology, Bombay</p>
+        </div>
+        <div>
+            <h2>Projects</h2>
+            <h3>RAG Based Chat Bot | POC</h3>
+            <ul>
+                <li>Implemented a Retrieval Augmented Generation pipeline, where user
+                    can chat and asks questions on the context of multiple uploaded PDFs.</li>
+                <li>We have used langchain’s PyPDFLoader as documents loader, RecursiveCharacterTextSplitter as text splitter, chromaDB as vector database,
+                    semantic similarity search strategy for retriever and Gemini’s Generative
+                    AI model as LLM for generation for pipeline. Also We have used rolling
+                    window of 2 for retaining the memory of chatbot.</li>
+                <li>We have used also tried the same pipeline with local LLM deployed using Ollama docker image(Llamma-3 model) along with HuggingFace’s BGE-small-model’s embeddings for vector DB embedding.</li>
+            </ul>
+
+            <h3>Deep Learning Model to classify variant into somatic, ambiguous and non-somatic </h3>
+            <ul>
+                <li>Implemented a Retrieval Augmented Generation pipeline, where user
+                    can chat and asks questions on the context of multiple uploaded PDFs.</li>
+                <li>We have used langchain’s PyPDFLoader as documents loader, RecursiveCharacterTextSplitter as text splitter, chromaDB as vector database,
+                    semantic similarity search strategy for retriever and Gemini’s Generative
+                    AI model as LLM for generation for pipeline. Also We have used rolling
+                    window of 2 for retaining the memory of chatbot.</li>
+                <li>We have used also tried the same pipeline with local LLM deployed using Ollama docker image(Llamma-3 model) along with HuggingFace’s BGE-small-model’s embeddings for vector DB embedding.</li>
+            </ul>            
+
+
+            <h3>Courses</h3>
+            <ol>
+                <a href="https://www.coursera.org/account/accomplishments/verify/WVUG83YYXFW9"><li><strong>Generative AI with Large Language Models</strong></li></a>
+                <a href="https://www.coursera.org/account/accomplishments/verify/CNAENY9S3EYW"><li>Applied Machine Learning in Python</li></a>
+                <a href="https://www.coursera.org/account/accomplishments/verify/6YVW2JF9QXKE"><li>Machine Learning</li></a>
+                <a href="https://www.coursera.org/account/accomplishments/verify/SK6LXS8VR5FC"><li>Applied Text Mining in Python</li></a>
+                <a href="https://www.coursera.org/account/accomplishments/verify/N632499TLQ26"><li>SQL for Data Science</li></a>
+            </ol>
+        </div>
+
+        <div>
+            <h2>Skills</h2>
+            <p>Technology : Python, Gen AI, LLM, CV, NLP</p>
+            <p>Libraries : OpenAI, huggingface / transformers,
+                Langchain, Chat-GPT, PyTorch, OpenCV,
+                Spacy, Scikit-learn, XGBoost, pandas</p>
+            <p>Backend : FastAPI, SQL, MongoDB, Git</p>
+        </div>
+
+        <div>
+            <h2>Gallery</h2>
+            <img src="images/GenAI_LLM.png" alt="Coursera Certificate" width="30%">
+            <img src="images/MachineLearning.png" alt="Coursera Certificate" width="30%">
+            <img src="images/GenAITextSummarization.png" alt="Coursera Certificate" width="30%">            
+        </div>
+
+    </main>
+</body>
+</html>
